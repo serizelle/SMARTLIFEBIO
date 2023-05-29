@@ -1298,6 +1298,50 @@ flex-direction: column;
         height: 554px;
         left: 11px;
     }
+    .item-box {
+        background-color: transparent;
+        position: relative;
+        overflow: hidden;
+        transition: 0.3s ease;
+        height: 130px;
+        padding: 35px 17px 12px 17px;
+        width: 316px;
+    }
+    .active {
+        background-color: white;
+        height: 100%;
+        padding: 35px 0px 0px 0px;
+    }
+    .item-box__price, .item-box__minititle, .item-box__list, .plans__btn {
+        display: none;
+    }
+    .item-box.active .item-box__price {
+        display: block;
+    }
+    .item-box.active .item-box__minititle
+    {
+        display: block;
+    }
+    .item-box.active .item-box__list
+    {
+        display: block;
+    }
+    .item-box.active .plans__btn
+    {
+        display: block;
+    }
+    .toggle {
+        background-color: transparent;
+        border: 0;
+        cursor: pointer;
+        position: absolute;
+    }
+    .toggle:focus {
+        outline: 0;
+    }
+    * {
+        box-sizing: border-box;
+    }
 }
 @media (max-width: 375px) {
     .section_center {
@@ -1325,4 +1369,5 @@ flex-direction: column;
     .apply__box__info {
         padding-bottom: 10px;
     }
+
 }

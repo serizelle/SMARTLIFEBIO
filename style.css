@@ -255,27 +255,27 @@ html {
 }
 .mainpage__body__apply__quote {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-color: #777474;
-width: 403px;
-height: 50px;
-background: #D8FFED;
-border-radius: 10px;
-display: flex;
-justify-content: center;
-align-items: center;
-margin-bottom: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #777474;
+    width: 403px;
+    height: 50px;
+    background: #D8FFED;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
 }
 .quote {
     font-family: 'Roboto';
-font-style: italic;
-font-weight: 400;
-font-size: 18px;
-line-height: 21px;
-color: #737373;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #737373;
 }
 .mainpage__body__apply__text {
     font-family: 'Roboto';
